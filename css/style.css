@@ -8,10 +8,12 @@
   background: url("../wp2630487.jpg");
   background-position: center;
   overflow: hidden;
+  height: 52vh !important;
 }
-.zigzak-text {
+.zigzak-text-bg-2 .zigzak-text {
   position: relative;
   z-index: 2;
+  padding: 4.2rem !important;
 }
 
 .zigzak-text::after {
@@ -28,7 +30,7 @@
 }
 .zigzak-text-bg-2 .zigzak-text::after {
   left: auto;
-  right: -4880%;
+  right: -4900%;
 }
 h2 {
   font-size: 1.7em !important;

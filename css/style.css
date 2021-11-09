@@ -1,0 +1,53 @@
+.zigzak-text-bg-1 {
+  background: url("../1802100.jpg");
+  background-position: center;
+  border-bottom: 15px solid #b8d531;
+}
+.zigzak-text-bg-2 {
+  background: url("../wp2630487.jpg");
+  background-position: center;
+  overflow: hidden;
+}
+.zigzak-text {
+  position: relative;
+  z-index: 2;
+}
+
+.zigzak-text::after {
+  position: absolute;
+  content: "";
+  left: -4890%;
+  top: 0;
+  background-color: rgb(119, 114, 114);
+  height: 100%;
+  width: 5000%;
+  z-index: -1;
+  transform: skew(10deg);
+}
+.zigzak-text-bg-2 .zigzak-text::after {
+  left: auto;
+  right: -4880%;
+}
+h2 {
+  font-size: 1.7em !important;
+}
+p {
+  font-size: 0.8em !important;
+}
+.boxed-btn {
+  padding: 8px 20px;
+  color: #fff;
+  text-decoration: none;
+  background: #b8d531;
+  border-radius: 5px;
+  border-bottom: 2px solid #ede5e5;
+}
+.boxed-btn:hover {
+  color: #fff;
+}
+.zigzak-text {
+  position: relative;
+  z-index: 2;
+  padding: 3rem 0;
+  color: #ffffff;
+}

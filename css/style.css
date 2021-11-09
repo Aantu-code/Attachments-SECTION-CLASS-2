@@ -24,6 +24,7 @@
   width: 5000%;
   z-index: -1;
   transform: skew(10deg);
+  overflow: hidden;
 }
 .zigzak-text-bg-2 .zigzak-text::after {
   left: auto;
